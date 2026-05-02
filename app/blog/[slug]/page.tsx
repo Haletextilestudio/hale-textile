@@ -49,6 +49,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               {post.title}
             </h1>
             <div className="flex items-center gap-4 font-body text-[12px] tracking-[0.15em] text-warm-gray">
+              <span>Meeta Vu</span>
+              <span className="text-linen">·</span>
               <span>{formattedDate}</span>
               <span className="text-linen">·</span>
               <span>{post.readTime}</span>
