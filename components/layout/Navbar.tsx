@@ -12,6 +12,7 @@ const navLinks = [
   { href: "/wallpaper", label: "Wallpaper" },
   { href: "/accessories", label: "Accessories" },
   { href: "/about", label: "About" },
+  { href: "/blog", label: "Journal" },
 ];
 
 export default function Navbar() {

@@ -10,6 +10,7 @@ const shop = [
 
 const studio = [
   { href: "/about", label: "About the Studio" },
+  { href: "/blog", label: "The Journal" },
   { href: "/contact", label: "Visit Us" },
 ];
 

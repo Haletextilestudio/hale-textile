@@ -10,6 +10,7 @@ const navLinks = [
   { href: "/wallpaper", label: "Wallpaper" },
   { href: "/accessories", label: "Accessories" },
   { href: "/about", label: "About" },
+  { href: "/blog", label: "Journal" },
   { href: "/contact", label: "Visit Us" },
 ];
 
