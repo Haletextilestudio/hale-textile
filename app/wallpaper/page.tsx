@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Wallpaper & Wallcovering",
+  description:
+    "Designer wallpaper and wallcovering for Hawaii's most beautiful interiors. Explore our curated collection of luxury wallcoverings suited to the island climate and aesthetic.",
+  alternates: { canonical: "https://haletextilestudio.com/wallpaper" },
+};
 import Link from "next/link";
 import PageHero from "@/components/shared/PageHero";
 import AnimatedSection from "@/components/shared/AnimatedSection";

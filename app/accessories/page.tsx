@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import PageHero from "@/components/shared/PageHero";
+
+export const metadata: Metadata = {
+  title: "Accessories",
+  description:
+    "Bespoke home accessories and decorative objects for the Hawaiian interior. Curated finishing pieces that complement our fabric and wallpaper collections.",
+  alternates: { canonical: "https://haletextilestudio.com/accessories" },
+};
 import AnimatedSection from "@/components/shared/AnimatedSection";
 import TextileDivider from "@/components/shared/TextileDivider";
 import MailingList from "@/components/home/MailingList";

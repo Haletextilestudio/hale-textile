@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import AnimatedSection from "@/components/shared/AnimatedSection";
+
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "Learn about Hale Textile Studio — a Hawaii-based textile studio dedicated to bringing the finest fabrics, wallcoverings, and accessories to the island interior.",
+  alternates: { canonical: "https://haletextilestudio.com/about" },
+};
 import TextileDivider from "@/components/shared/TextileDivider";
 import TextileMotif from "@/components/shared/TextileMotif";
 import MailingList from "@/components/home/MailingList";
